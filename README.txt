@@ -1,0 +1,1 @@
+This Xcode project was created for iOS devices for an exercise in my online iOS course. The photos page currently is not what I'd like it to be, but I cannot find a way to get stackviews and "aspect fit" imageviews to work together.
