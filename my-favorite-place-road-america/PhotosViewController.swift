@@ -10,10 +10,16 @@ import UIKit
 
 class PhotosViewController: UIViewController {
 
+    @IBOutlet weak var photo1Img: UIImageView!
+    @IBOutlet weak var photo2Img: UIImageView!
+    @IBOutlet weak var photo3Img: UIImageView!
+    @IBOutlet weak var photo4Img: UIImageView!
+    @IBOutlet weak var photo5Img: UIImageView!
+    @IBOutlet weak var photo6Img: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

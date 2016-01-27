@@ -340,13 +340,16 @@
                                     <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" axis="vertical" distribution="fillEqually" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="rBp-pk-6cl">
                                         <rect key="frame" x="0.0" y="0.0" width="268" height="592"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="249" verticalCompressionResistancePriority="250" misplaced="YES" image="IMG_2499-1" translatesAutoresizingMaskIntoConstraints="NO" id="3Sl-SR-NDH" userLabel="UL Image">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="249" verticalCompressionResistancePriority="250" image="IMG_2499-1" translatesAutoresizingMaskIntoConstraints="NO" id="3Sl-SR-NDH" userLabel="UL Image">
                                                 <rect key="frame" x="0.0" y="0.0" width="268" height="187"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="268" id="wzs-95-zOv"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" image="IMG_5900-1" translatesAutoresizingMaskIntoConstraints="NO" id="jG0-dN-woK" userLabel="ML Image">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" image="IMG_5900-1" translatesAutoresizingMaskIntoConstraints="NO" id="jG0-dN-woK" userLabel="ML Image">
                                                 <rect key="frame" x="0.0" y="202" width="268" height="188"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" image="IMG_3471-1" translatesAutoresizingMaskIntoConstraints="NO" id="NeS-X8-Wf3" userLabel="LL Image">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" image="IMG_3471-1" translatesAutoresizingMaskIntoConstraints="NO" id="NeS-X8-Wf3" userLabel="LL Image">
                                                 <rect key="frame" x="0.0" y="405" width="268" height="187"/>
                                             </imageView>
                                         </subviews>
@@ -354,19 +357,19 @@
                                     <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lU4-gW-iVM">
                                         <rect key="frame" x="276" y="0.0" width="268" height="592"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" image="IMG_5887-1" translatesAutoresizingMaskIntoConstraints="NO" id="PyD-nX-0HU" userLabel="UR Image">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" image="IMG_5887-1" translatesAutoresizingMaskIntoConstraints="NO" id="PyD-nX-0HU" userLabel="UR Image">
                                                 <rect key="frame" x="0.0" y="0.0" width="268" height="187"/>
                                                 <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
                                                     <rect key="frame" x="0.0" y="0.0" width="368" height="254"/>
                                                 </variation>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" image="IMG_7341-1" translatesAutoresizingMaskIntoConstraints="NO" id="ONf-KJ-wHd" userLabel="MR Image">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" image="IMG_7341-1" translatesAutoresizingMaskIntoConstraints="NO" id="ONf-KJ-wHd" userLabel="MR Image">
                                                 <rect key="frame" x="0.0" y="202" width="268" height="188"/>
                                                 <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
                                                     <rect key="frame" x="0.0" y="269" width="368" height="254"/>
                                                 </variation>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" image="IMG_4841-1" translatesAutoresizingMaskIntoConstraints="NO" id="JFU-0F-UcS" userLabel="LR Image">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" image="IMG_4841-1" translatesAutoresizingMaskIntoConstraints="NO" id="JFU-0F-UcS" userLabel="LR Image">
                                                 <rect key="frame" x="0.0" y="405" width="268" height="187"/>
                                                 <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
                                                     <rect key="frame" x="0.0" y="538" width="368" height="254"/>
@@ -397,6 +400,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="V1q-ft-Z3u" secondAttribute="trailing" constant="8" id="kuF-bl-Noy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="photo1Img" destination="3Sl-SR-NDH" id="tyd-1M-cvw"/>
+                        <outlet property="photo2Img" destination="PyD-nX-0HU" id="qcm-LD-8v1"/>
+                        <outlet property="photo3Img" destination="jG0-dN-woK" id="Akt-PA-EP6"/>
+                        <outlet property="photo4Img" destination="ONf-KJ-wHd" id="KC2-h6-fvx"/>
+                        <outlet property="photo5Img" destination="NeS-X8-Wf3" id="7n7-Fk-eCA"/>
+                        <outlet property="photo6Img" destination="JFU-0F-UcS" id="2cH-y1-Fzl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XfM-Oy-LTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
